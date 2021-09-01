@@ -19,6 +19,9 @@ header{
 }
 .header-img{
      margin-top:5%;
-    height:5%;
+    margin-right:5%;
     float:right;
+}
+.smaller-image{
+    width: 300px
 }
