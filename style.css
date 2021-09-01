@@ -1,13 +1,18 @@
 body{
     margin:0%;
-    padding:0%
+    padding:0%;
 }
-.MediumBlue-background {
-background-color: #0000CD;
-padding:10%;
 
-} 
-.white-text{
-color:ivory;
-font-size:xx-large;
+header{
+    background-color: #0000CD;
+    padding:1% 4%;
+    height:50%;
+}
+
+.website-name{
+    font-size:xx-large;
+    color:ivory;
+    font-family:" Brush-Script-Mt","Lobster";
+    margin-top:0%;
+    padding-bottom:25%;
 }
