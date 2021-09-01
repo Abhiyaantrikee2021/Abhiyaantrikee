@@ -14,5 +14,11 @@ header{
     color:ivory;
     font-family:" Brush-Script-Mt","Lobster";
     margin-top:0%;
-    padding-bottom:25%;
+    margin-bottom:25%;
+    display:inline-block;
+}
+.header-img{
+     margin-top:5%;
+    height:5%;
+    float:right;
 }
