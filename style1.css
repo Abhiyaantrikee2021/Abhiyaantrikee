@@ -1,0 +1,29 @@
+body{
+    margin:0%;
+    padding:0%;
+
+}
+
+img{
+    float:right;
+    padding-right:1%;
+}
+a{
+    padding:0.5% 1%;
+    text-decoration: none;
+    color:ivory;
+}
+.header-link-left{
+    padding-left:75%;
+}
+
+.website-name{
+    padding-left:2%;
+    display:inline-block;
+    color:ivory;
+}
+
+header{
+    background-color: #0000CD;
+    padding-bottom:20%;
+}
