@@ -7,6 +7,7 @@ header{
     background-color: #0000CD;
     padding:1% 4%;
     height:50%;
+    
 }
 
 .website-name{
@@ -15,12 +16,20 @@ header{
     font-family:" Brush-Script-Mt","Lobster";
     margin-top:0%;
     margin-bottom:25%;
-    display:inline-block;
+    display:inline-block; 
 }
 
 .header-link{
     color:ivory;
     text-decoration: None;
     margin-top:1%;
-    margin-left:3%;
+    margin-left:3%;   
 }
+
+.header-img{
+    width:25%;
+    float:right;
+    padding-top:0%;
+    margin-top:0%;
+}
+
