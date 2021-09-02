@@ -17,10 +17,8 @@ header{
     margin-bottom:25%;
     display:inline-block;
 }
-
-.header-link{
-    color:ivory;
-    text-decoration: None;
-    margin-top:1%;
-    margin-left:3%;
+.header-img{
+    margin-top: 5%;
+    margin-right: 1%;
+    float: right;
 }
