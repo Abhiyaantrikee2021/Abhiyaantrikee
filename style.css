@@ -17,11 +17,10 @@ header{
     margin-bottom:25%;
     display:inline-block;
 }
-.header-img{
-     margin-top:5%;
-    margin-right:5%;
-    float:right;
-}
-.smaller-image{
-    width: 300px
+
+.header-link{
+    color:ivory;
+    text-decoration: None;
+    margin-top:1%;
+    margin-left:3%;
 }
