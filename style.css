@@ -10,7 +10,8 @@ img{
 }
 a{
     padding:0.5% 1%;
-    text-decoration: none;
+    text-decoration:underline;
+    font-size: 20px;
     color:ivory;
 }
 .header-link-left{
