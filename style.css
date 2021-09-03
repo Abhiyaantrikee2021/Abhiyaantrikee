@@ -7,10 +7,11 @@ body{
 img{
     float:right;
     padding-right:1%;
+    height:10%;
 }
 a{
-    padding:0.5% 1%;
-    text-decoration:underline;
+    padding:0.5% 2%;
+    text-decoration:none;
     font-size: 20px;
     color:ivory;
 }
@@ -35,16 +36,21 @@ header{
     font-style: italic;
     padding-left:5%;
     padding-top:3%;
+    
 }
 .flexbox{
-    background-color:beige;
+    background-color:whitesmoke;
+    border: 3px solid black;
     display:inline-block;
     padding:1% 1%;
     margin:1% 4%;
     border-radius: 20px;
+    font-family: monospace;
 }
 .section-image{
     position:center;
+    width: 200px;
+    height:200px;
 }
 
 .homepage-link{
