@@ -36,3 +36,8 @@ header{
     padding-left:5%;
     padding-top:3%;
 }
+h3{
+    text-align:center;
+    padding: 0.5% 1%;
+    background-color:beige;
+}
