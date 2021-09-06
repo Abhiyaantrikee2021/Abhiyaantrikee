@@ -1,0 +1,33 @@
+body{
+    margin:0%;
+    padding:0%;
+
+}
+
+header{
+    background-color: #0000CD;
+   
+}
+
+.website-name{
+    padding-left:2%;
+    display:inline-block;
+    color:ivory;
+}
+
+.links{
+    display:inline-block;
+    text-decoration: none;
+    color:ivory;
+    padding:1% 3%;
+}
+
+.header-link-left{
+    margin-left:65%;
+    color:ivory;
+    padding:1% 3%;
+    text-decoration: none;
+}
+
+
+
