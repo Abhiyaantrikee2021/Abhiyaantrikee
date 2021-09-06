@@ -29,5 +29,15 @@ header{
     text-decoration: none;
 }
 
+.box{
+    border:3px solid black;
+    display:inline-block;
+    margin:10% 15%;
+    
+}
+ul.li{
+    padding:1% 510%;
+}
+
 
 
