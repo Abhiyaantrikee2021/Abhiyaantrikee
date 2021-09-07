@@ -29,19 +29,29 @@ header{
     text-decoration: none;
 }
 
-.box{
-    border:3px solid black;
-    display:inline-block;
-    margin:10% 15%;
-    
-}
-ul.li{
-    padding:1% 510%;
-}
 footer{
     background-color: #0000CD;
     color:ivory;
 }
 
+.download-button{
+    background-color:black;
+    color:white;
+    margin:1% 42%;
+    padding:1% 1%;
+    font-size: medium;
+    width:15%;
 
+}
 
+.sem-blocks{
+    display:inline-block;
+    border:3px solid black;
+    background-color: whitesmoke;
+    padding:1% 1%;
+    margin:1% 4%;
+}
+
+ul{
+    font-size:x-large;
+}
