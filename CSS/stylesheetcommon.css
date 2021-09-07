@@ -23,7 +23,7 @@ header{
 }
 
 .header-link-left{
-    margin-left:65%;
+    margin-left:55%;
     color:ivory;
     padding:1% 3%;
     text-decoration: none;
@@ -37,6 +37,10 @@ header{
 }
 ul.li{
     padding:1% 510%;
+}
+footer{
+    background-color: #0000CD;
+    color:ivory;
 }
 
 

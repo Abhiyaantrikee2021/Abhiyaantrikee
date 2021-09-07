@@ -19,7 +19,7 @@ a:hover{
     text-decoration: underline;
 }
 .header-link-left{
-    margin-left:65%;
+    margin-left:55%;
 }
 
 .website-name{
@@ -62,4 +62,9 @@ header{
 }
 h3{
     text-align:center;
+}
+
+footer{
+    background-color: #0000CD;
+    color:ivory;
 }
