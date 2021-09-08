@@ -77,3 +77,11 @@ ul{
 h3{
     font-size: xx-large;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
