@@ -7,7 +7,7 @@ body{
 img{
     float:right;
     padding-right:1%;
-    height:10%;
+    height:1%;
 }
 a{
     padding:0.5% 2%;
@@ -25,16 +25,16 @@ a:hover{
 .website-name{
     padding-left:2%;
     display:inline-block;
-    color:ivory;
+    color: black;
 }
 
 header{
-    background-color: #0000CD;
+    background-coloR:#9F8370;
     padding-bottom:10%;
 }
 
 .tagline{
-    color:ivory;
+    color:white;
     font-size: 50px;
     font-style: italic;
     padding-left:5%;
@@ -65,6 +65,18 @@ h3{
 }
 
 footer{
-    background-color: #0000CD;
+    background-color:#9F8370;
     color:ivory;
+}
+
+main{
+    background-color: #374859;
+}
+
+.homeimage
+{
+    width:25%;
+    margin-right:4.3% ;
+    margin-top: 2%;
+    
 }
