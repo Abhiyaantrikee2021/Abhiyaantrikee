@@ -13,7 +13,7 @@ a{
     padding:0.5% 2%;
     text-decoration:none;
     font-size: 20px;
-    color:ivory;
+    color:white;
 }
 a:hover{
     text-decoration: underline;
@@ -25,11 +25,11 @@ a:hover{
 .website-name{
     padding-left:2%;
     display:inline-block;
-    color: black;
+    color:white;
 }
 
 header{
-    background-coloR:#9F8370;
+    background-color:rgb(255, 130, 67);
     padding-bottom:10%;
 }
 
@@ -49,6 +49,7 @@ header{
     margin:1% 4%;
     border-radius: 20px;
     font-family: monospace;
+    
 }
 .section-image{
     position:center;
@@ -65,12 +66,12 @@ h3{
 }
 
 footer{
-    background-color:#9F8370;
+    background-color:rgb(252, 116, 101);
     color:ivory;
 }
 
 main{
-    background-color: #374859;
+    background-color:white;
 }
 
 .homeimage
