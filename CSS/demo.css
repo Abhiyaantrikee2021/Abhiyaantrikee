@@ -1,19 +1,15 @@
 body{
-    margin:0%;
-    padding:0%;
-    
+    background-image: url("/wallpaper-2.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-img{
-    float:right;
-    padding-right:1%;
-    height:1%;
-}
 a{
     padding:0.5% 2%;
     text-decoration:none;
     font-size: 20px;
-    color:white;
+    color:ivory;
 }
 a:hover{
     text-decoration: underline;
@@ -25,31 +21,15 @@ a:hover{
 .website-name{
     padding-left:2%;
     display:inline-block;
-    color:white;
-}
-
-header{
-    background-color:rgb(255, 130, 67);
-    padding-bottom:10%;
-}
-
-.tagline{
-    color:white;
-    font-size: 50px;
-    font-style: italic;
-    padding-left:5%;
-    padding-top:3%;
-    
+    color: black;
 }
 .flexbox{
-    background-color:whitesmoke;
     border: 3px solid black;
     display:inline-block;
     padding:1% 1%;
     margin:1% 4%;
     border-radius: 20px;
     font-family: monospace;
-    
 }
 .section-image{
     position:center;
@@ -66,12 +46,8 @@ h3{
 }
 
 footer{
-    background-color:rgb(252, 116, 101);
+    background-color:transparent;
     color:ivory;
-}
-
-main{
-    background-color:white;
 }
 
 .homeimage
