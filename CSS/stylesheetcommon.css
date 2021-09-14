@@ -5,14 +5,14 @@ body{
 }
 
 header{
-    background-color: #0000CD;
+    background-color:grey ;
    
 }
 
 .website-name{
     padding-left:2%;
     display:inline-block;
-    color:ivory;
+    color: black;
 }
 
 .links{
@@ -85,4 +85,6 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
+main{
+    background-color:#FFE4B5;
+}
