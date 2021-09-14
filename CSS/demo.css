@@ -1,8 +1,10 @@
 body{
-    background-image: url("/wallpaper-2.jpg");
+    margin:0%;
+    padding:0%;
     background-position: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+   background-size: cover;
+   background-image: url("/engineering1.jpg");
 }
 
 a{
@@ -57,3 +59,4 @@ footer{
     margin-top: 2%;
     
 }
+
