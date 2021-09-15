@@ -1,11 +1,19 @@
-body{
+/*body{
     margin:0%;
     padding:0%;
-    background-position: fixed;
-    background-repeat: no-repeat;
-   background-size: cover;
-   background-image: url("/engineering1.jpg");
-}
+    background: black url(/wallpaper-7.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}*/
+
+body { background-image: url('/wallpaper-7.jpg');
+     background-repeat: no-repeat;
+      background-position:center fixed;
+       -webkit-background-size: cover;
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover; }​
 
 a{
     padding:0.5% 2%;

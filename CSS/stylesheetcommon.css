@@ -6,7 +6,6 @@ body{
 
 header{
     background-color:#00a3a3 ;
-   
 }
 
 .website-name{
@@ -86,6 +85,7 @@ a:hover{
     text-decoration: underline;
 }
 main{
+
 
     background-color:lightcyan;
     display: inline-block;
