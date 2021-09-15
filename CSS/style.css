@@ -46,9 +46,10 @@ header{
     border: 3px solid black;
     display:inline-block;
     padding:1% 1%;
-    margin:1% 4%;
+    margin:3% 5%;
     border-radius: 20px;
     font-family: monospace;
+    
     
 }
 .section-image{
