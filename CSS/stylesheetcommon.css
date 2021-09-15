@@ -5,9 +5,8 @@ body{
 }
 
 header{
-    background-color:grey ;
-    margin-bottom:0%;
-   
+
+    background-color:gray ;
 }
 
 .website-name{
@@ -33,13 +32,13 @@ header{
 }
 
 footer{
-    background-color: #0000CD;
+    background-color: grey;
     color:ivory;
 }
 
 .download-button{
-    background-color:black;
-    color:white;
+    background-color:whitesmoke;
+    color:black;
     margin:1% 42%;
     padding:1% 1%;
     font-size: large;
@@ -87,7 +86,9 @@ a:hover{
     text-decoration: underline;
 }
 main{
-    background-color:#E6E6FA;
-    display:inline-block;
-    width:100%;
+
+
+    background-color:lightcyan;
+    display: inline-block;
+    width: 100%;
 }
