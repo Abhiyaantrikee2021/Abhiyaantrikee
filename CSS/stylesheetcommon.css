@@ -6,6 +6,7 @@ body{
 
 header{
     background-color:grey ;
+    margin-bottom:0%;
    
 }
 
@@ -86,5 +87,7 @@ a:hover{
     text-decoration: underline;
 }
 main{
-    background-color:#FFE4B5;
+    background-color:#E6E6FA;
+    display:inline-block;
+    width:100%;
 }
