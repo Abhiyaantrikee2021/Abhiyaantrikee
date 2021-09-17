@@ -69,7 +69,10 @@ h3{
 
 footer{
     background-color:rgb(255, 130, 67);
-    color:ivory;
+    color:black;
+    margin-top:0%;
+    padding-top:0%;
+
 }
 
 main{
@@ -92,7 +95,7 @@ main{
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
+  margin-bottom:auto ;
 }
 
 /* Hide the images by default */
