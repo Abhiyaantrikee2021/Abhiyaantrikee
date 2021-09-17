@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    background-color:#00a3a3 ;
+    background-color:rgb(255, 130, 67) ;
 }
 
 .website-name{
@@ -31,7 +31,7 @@ header{
 }
 
 footer{
-    background-color: grey;
+    background-color:rgb(255, 130, 67);
     color:ivory;
 }
 
@@ -87,7 +87,7 @@ a:hover{
 main{
 
 
-    background-color:lightcyan;
+    background-color:papayawhip;
     display: inline-block;
     width: 100%;
 }
