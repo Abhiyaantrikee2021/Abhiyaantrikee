@@ -11,7 +11,7 @@ header{
 .website-name{
     padding-left:2%;
     display:inline-block;
-    color: black;
+    color: white;
 }
 
 .links{
@@ -23,7 +23,7 @@ header{
 }
 
 .header-link-left{
-    font-size: medium;
+    font-size: large;
     margin-left:55%;
     color:ivory;
     padding:1% 3%;
