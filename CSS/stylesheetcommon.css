@@ -23,7 +23,7 @@ header{
 }
 
 .header-link-left{
-    font-size: large;
+    font-size: medium;
     margin-left:55%;
     color:ivory;
     padding:1% 3%;
@@ -31,7 +31,7 @@ header{
 }
 
 footer{
-    background-color:rgb(255, 130, 67);
+    background-color:rgb(250, 100, 25);
     color:ivory;
 }
 
