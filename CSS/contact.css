@@ -1,0 +1,30 @@
+input,label,select,textarea{
+    padding:5% 5%;
+    display:block;
+    font-size: x-large;
+    margin-left:2%;
+}
+
+.contact{
+    display:block;
+    padding:0.5% 1%;
+}
+
+.container{
+    
+    display:inline-block;
+    padding-top:1% ;
+    padding-right:5%;
+    background-color: bisque;
+}
+
+input{
+    padding:2% 5%; 
+}
+
+textarea{
+   padding:10% 15%;
+}
+
+
+
