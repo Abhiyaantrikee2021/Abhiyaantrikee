@@ -33,6 +33,7 @@ header{
 footer{
     background-color:rgb(250, 100, 25);
     color:ivory;
+    
 }
 
 .download-button{
@@ -47,13 +48,14 @@ footer{
 }
 
 .sem-blocks{
-    font-family: monospace;
-    display:inline-block;
     border:3px solid black;
-    background-color: whitesmoke;
-    padding:1% 1%;
-    margin:1% 4%;
-   
+    
+    /*margin:5% 3%;
+    font-family: monospace;
+    
+    background-color: whitesmoke;*/
+    /* padding:1% 1%;
+    margin:1% 4%;*/
 }
 
 ul{
@@ -86,9 +88,16 @@ a:hover{
     text-decoration: underline;
 }
 main{
-
-
     background-color:rgba(128, 128, 128, 0.178);
-    display: inline-block;
-    width: 100%;
+    display:grid;
+    padding-bottom:10%;
 }
+.row{
+    margin: 0 auto;
+    max-width: 55%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:5% 10%;
+}
+
+
