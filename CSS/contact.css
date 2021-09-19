@@ -1,7 +1,7 @@
 input,label,select,textarea{
     padding:5% 5%;
     display:block;
-    font-size: x-large;
+    font-size:larger;
     margin-left:2%;
 }
 
