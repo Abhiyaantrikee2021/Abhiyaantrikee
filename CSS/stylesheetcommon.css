@@ -37,13 +37,14 @@ footer{
 }
 
 .download-button{
-    background-color:whitesmoke;
+    background-color:papayawhip;
+    font-weight: bold;
     color:black;
     margin:1% 42%;
     padding:1% 1%;
     font-size: large;
     width:15%;
-    font-family: monospace;
+    font-family:'Times New Roman', Times, serif;
 
 }
 
@@ -57,11 +58,12 @@ footer{
 
 ul{
     font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .sub-blocks{
     margin:3% 5%;
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .button-style{
@@ -69,7 +71,7 @@ ul{
     background-color:rgba(128, 128, 128, 0.226);
     color:black;
     font-size: large;
-    font-family: monospace;
+    font-family:'Times New Roman', Times, serif;
     border: 15px;
 }
 
@@ -85,7 +87,7 @@ a:hover{
     text-decoration: underline;
 }
 main{
-    background-color:rgba(128, 128, 128, 0.178);
+    background-color:rgba(128, 128, 128, 0.13);
     display:grid;
     padding-bottom:10%;
 }

@@ -1,7 +1,12 @@
 p{
     font-size: large;
-    font-family: monospace;
+    font-family: 'Times New Roman', Times, serif;
     margin:1% 1.5%;
+}
+
+.li{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .headings{
