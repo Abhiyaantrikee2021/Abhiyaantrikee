@@ -51,9 +51,17 @@ footer{
 .sem-blocks{
     border:3px solid black;
     font-family:'Times New Roman', Times, serif;
+    background-color:papayawhip ;
+  
+}
+
+.phychem{
+    border:3px solid black;
+    font-family: 'Times New Roman', Times, serif;
     background-color: whitesmoke;
      padding:1% 1%;
     margin:1% 30%;
+
 }
 
 ul{
