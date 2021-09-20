@@ -29,3 +29,11 @@ textarea{
 
 
 
+.icon{
+    width: 2%;
+}
+
+.sty{
+    display: flex;
+    float: right;
+}
