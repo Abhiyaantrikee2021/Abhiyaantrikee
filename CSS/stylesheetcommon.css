@@ -100,4 +100,7 @@ main{
     
 }
 
-
+.icon{
+    display:inline-block;
+    width:1%;
+}

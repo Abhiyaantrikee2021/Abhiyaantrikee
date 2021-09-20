@@ -1,12 +1,12 @@
 input,label,select,textarea{
     padding:5% 5%;
-    display:block;
+    display:inline-block;
     font-size:larger;
     margin-left:2%;
 }
 
 .contact{
-    display:block;
+    display:inline-block;
     padding:0.5% 1%;
 }
 
@@ -27,13 +27,7 @@ textarea{
    padding:10% 15%;
 }
 
-
-
-.icon{
-    width: 2%;
+div{
+    display:inline-block;
 }
 
-.sty{
-    display: flex;
-    float: right;
-}
