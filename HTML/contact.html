@@ -1,113 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/CSS/stylesheetcommon.css">
-    <link rel="stylesheet" href="/CSS/contact.css">
-    <!--
-    <style>
-        body {
-          font-family: Arial, Helvetica, sans-serif;
-          
-        }
-        
-        * {
-          box-sizing: border-box;
-        }
-        
-        /* Style inputs */
-        input[type=text], select, textarea {
-          width: 100%;
-          padding: 5%;
-          border: 1px solid #ccc;
-          margin-top:2%;
-          margin-bottom:2%;
-          resize: vertical;
-        }
-        
-        input[type=submit] {
-          background-color:rgb(255,130,65);
-          color: white;
-          padding: 2% 3%;
-          border: none;
-          cursor: pointer;
-        }
-        
-        input[type=submit]:hover {
-          background-color:#45a049;
-        }
-        
-        /* Style the container/contact section */
-        .container {
-         background-color:papayawhip;
-        }
-        
-        /* Create two columns that float next to eachother */
-        .column {
-          float: left;
-          margin:5% 3%;
-        }
-        
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        
-        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 600px) {
-          .column, input[type=submit] {
-            width: 100%;
-            margin-top: 0;
-          }
-        }
-        </style>-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/CSS/stylesheetcommon.css">
+  <link rel="stylesheet" href="/CSS/contact.css">
 </head>
 <body>
-    <header>
-        <h3 class="website-name">Website</h3>
-        <a class="header-link-left" class="links" href="/HTML/about.html">About</a>
-        <a href="/HTML/index.html" class="links">Home</a>
-        <a href="/HTML/contact.html" class="links">Contact Us</a><br>
-    </header>
+  <header>
+    <h3 class="website-name">Website</h3>
+    <a class="header-link-left" class="links" href="/HTML/about.html">About</a>
+    <a href="/HTML/index.html" class="links">Home</a>
+    <a href="/HTML/contact.html" class="links">Contact Us</a><br>
+</header>
+<main>
+  <div class="sidebar">
     <div class="container">
-        <div class="contact">
-          <h1 style="margin:1% 1%;">Contact Us</h1>
-          <p style="margin-left:1%;font-size: larger;">Please Share Your Feedback.</p>
-        </div>
-        <div class="row" style="margin-left:0%;">
-          
-          <div class="column" style="margin-left:0%;">
-            <form action="/action_page.php">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name..">
-              <label for="lname">Email Id</label>
-              <input type="text" id="Email" name="Email" placeholder="Your Email Id..">
-              <label for="semester">Semester</label>
-              <select id="semester" name="semester">
-                <option value="1st sem">1st Semester</option>
-                <option value="2nd sem">2nd Semester</option>
-                <option value="3rd sem">3rd Semester</option>
-                <option value="4th sem">4th Semester</option>
-                <option value="5th sem">5th Semester</option>
-                <option value="6th sem">6th Semester</option>
-                <option value="7th sem">7th Semester</option>
-                <option value="8th sem">8th Semester</option>
-              </select>
-              <label for="subject">Feedback..</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
-              <input type="submit" value="Submit" style="margin:3% 3%;">
-            </form>
-          </div>
+      <div class="contact">
+        <h1 style="margin:1% 1%;">Contact Us</h1>
+        <p style="margin-left:1%;font-size: larger;">Please Share Your Feedback.</p>
+      </div>
+      <div class="row" style="margin-left:0%;">
+        
+        <div class="column" style="margin-left:0%;">
+          <form action="/action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            <label for="lname">Email Id</label>
+            <input type="text" id="Email" name="Email" placeholder="Your Email Id..">
+            <label for="semester">Semester</label>
+            <select id="semester" name="semester">
+              <option value="1st sem">1st Semester</option>
+              <option value="2nd sem">2nd Semester</option>
+              <option value="3rd sem">3rd Semester</option>
+              <option value="4th sem">4th Semester</option>
+              <option value="5th sem">5th Semester</option>
+              <option value="6th sem">6th Semester</option>
+              <option value="7th sem">7th Semester</option>
+              <option value="8th sem">8th Semester</option>
+            </select>
+            <label for="subject">Feedback..</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+            <input type="submit" value="Submit" style="margin:3% 3%;">
+          </form>
         </div>
       </div>
-    <footer>
-        <p style="display: inline-block;">&#169; 2021 Designed by Website</p>
-        <p style="float:right">The content is strictly copyrighted to the Admin and may not be reproduced without permission.</p>
-    </footer>
+  </div>
+  <div class="row">
+<div class="team" style="margin-left:10%;">
+  <h2>Neha</h2>
+  <p>Student at Sir M Visvesvaraya Institute of Technology </p>
+  
+</div>
+<div class="team">
+  <h2>Firdaus</h2>
+  <p>Student at HKBK College of Engineering </p>
+  
+</div>
+<div class="team">
+  <h2>Raghav</h2>
+  <p>Student at Atria Institute of Technology </p>
+  
+</div>
+</div>
+</main>
+<footer>
+  <p style="display: inline-block;">&#169; 2021 Designed by Website</p>
+  <p style="float:right">The content is strictly copyrighted to the Admin and may not be reproduced without permission.</p>
+</footer>
 </body>
 </html>
