@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/CSS/stylesheetcommon.css">
   <link rel="stylesheet" href="/CSS/contact.css">
 </head>
 <body>
@@ -16,6 +15,7 @@
     <a href="/HTML/contact.html" class="links">Contact Us</a><br>
 </header>
 <main>
+  <!--
   <div class="sidebar">
     <div class="container">
       <div class="contact">
@@ -47,28 +47,66 @@
           </form>
         </div>
       </div>
+  </div>-->
+  
+  <h3>Contact Form</h3>
+  
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+  
+      <label for="lname">Last Email Id</label>
+      <input type="text" id="email" name="email" placeholder="Your Email Id..">
+  
+      <label for="semester">Semester</label>
+      <select id="semester" name="semester">
+        
+        <option value="1st sem">1st Semester</option>
+        <option value="2nd sem">2nd Semester</option>
+        <option value="3rd sem">3rd Semester</option>
+        <option value="4th sem">4th Semester</option>
+        <option value="5th sem">5th Semester</option>
+        <option value="6th sem">6th Semester</option>
+        <option value="7th sem">7th Semester</option>
+        <option value="8th sem">8th Semester</option>
+        
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
   </div>
-  <div class="row">
-<div class="team" style="margin-left:10%;">
-  <h2>Neha</h2>
-  <p>Student at Sir M Visvesvaraya Institute of Technology </p>
-  
-</div>
-<div class="team">
-  <h2>Firdaus</h2>
-  <p>Student at HKBK College of Engineering </p>
-  
-</div>
-<div class="team">
-  <h2>Raghav</h2>
-  <p>Student at Atria Institute of Technology </p>
-  
-</div>
+
+<div class="flex-container">
+  <div class="team"">
+    <h2>Neha Gamanagatti</h2>
+    <p>Student at Sir M Visvesvaraya Institute of Technology </p>
+    <img class="icon" src="/github.png">
+    <img class="icon" src="/linkedn.png">
+    
+  </div>
+  <div class="team">
+    <h2>Shaik Jannat Al Firdaus</h2>
+    <p>Student at HKBK College of Engineering </p>
+    <img class="icon" src="/github.png">
+    <img class="icon" src="/linkedn.png">
+  </div>
+  <div class="team">
+    <h2>Raghavendra Jayateerth</h2>
+    <p>Student at Atria Institute of Technology </p>
+    <img class="icon" src="/github.png">
+    <img class="icon" src="/linkedn.png">
+  </div>
+
 </div>
 </main>
 <footer>
-  <p style="display: inline-block;">&#169; 2021 Designed by Website</p>
-  <p style="float:right">The content is strictly copyrighted to the Admin and may not be reproduced without permission.</p>
+  <p style="display: inline-block; font-size: large; padding:0%;">&#169; 2021 Designed by Website</p>
+  <p style="float:right; font-size: large; padding:0%;">The content is strictly copyrighted to the Admin and may not be reproduced without permission.</p>
 </footer>
+
 </body>
 </html>

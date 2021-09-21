@@ -1,7 +1,55 @@
 body{
     margin:0%;
     padding:0%;
+    font-family: 'Times New Roman', Times, serif;
 }
+* {box-sizing: border-box;}
+
+header{
+    background-color:rgb(255, 130, 67) ;
+}
+
+.website-name{
+    padding-left:2%;
+    display:inline-block;
+    color: white;
+}
+
+.links{
+    font-size:130%;
+    display:inline-block;
+    text-decoration: none;
+    color:ivory;
+    padding:1% 3%;
+}
+
+.header-link-left{
+    font-size:130%;
+    margin-left:55%;
+    color:ivory;
+    padding:1% 3%;
+    text-decoration: none;
+}
+
+footer{
+    background-color:rgb(250, 100, 25);
+    color:ivory;
+    
+}
+
+h3{
+    font-size: xx-large;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*
 
 div{
     display:inline-block;
@@ -11,26 +59,81 @@ div{
     grid-template-columns: repeat(3,1fr);
     grid-gap:5%;
     margin:3% 25%;
-}
+}*/
+
+/*styling for contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 4px;
+    background-color: papayawhip;
+    padding: 3%;
+    width: 60%;
+    
+  }
+  /*styling end of contct form*/
+
+ /*styling of name contact*/ 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color:papayawhip;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 40%;
+    margin: 2%;
+    text-align: center;
+    line-height: 80%;
+    font-size: 30px;
+  }
+  /*styling end of name*/
+/*
 .team{
     background-color: blanchedalmond;
     margin:5% 5%;
-}
+}*/
 
 h2{
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 p{
-    font-size: x-large;
+    font-size: large;
     padding:3%;
 }
 
+
 .icon{
-    width:5%;
-    padding:5%;
+    width:7%;
+    margin: 2%;
+    
 }
+/*
 input,label,select,textarea{
     padding:5% 5%;
     display:inline-block;
@@ -59,4 +162,4 @@ input{
 textarea{
    padding:10% 15%;
 }
-
+*/
