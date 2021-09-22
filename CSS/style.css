@@ -10,6 +10,7 @@ img{
     height:1%;
 }
 */
+
 a{
     padding:0.5% 2%;
     margin:1% 1%;
@@ -21,17 +22,26 @@ a:hover{
     text-decoration: underline;
 }
 .header-link-left{
-    margin-left:50%;
+    margin-left:60%;
+    
 }
 
 .website-name{
-    margin:1%;
+    margin:2%;
     display:inline-block;
     color:white;
 }
 
 header{
     background-color:rgb(255, 130, 67);
+}
+.vl {
+  border-left: 3px solid white;
+  height: 5%;
+  position:absolute;
+  display: inline-block;
+  
+  
 }
 /*
 .tagline{

@@ -24,11 +24,19 @@ header{
 
 .header-link-left{
     font-size:130%;
-    margin-left:55%;
+    margin-left:60%;
     color:ivory;
     padding:1% 3%;
     text-decoration: none;
 }
+
+.vl {
+    border-left: 3px solid white;
+    height: 5%;
+    position:absolute;
+    display: inline-block;
+
+  }
 
 footer{
     background-color:rgb(250, 100, 25);

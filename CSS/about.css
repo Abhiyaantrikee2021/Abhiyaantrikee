@@ -15,3 +15,11 @@ p{
 body{
     background-color: papayawhip;
 }
+
+.vl {
+    border-left: 3px solid white;
+    height: 5%;
+    position:absolute;
+    display: inline-block;
+
+  }
