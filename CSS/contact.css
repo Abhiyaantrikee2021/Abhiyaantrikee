@@ -90,7 +90,10 @@ input[type=text], select, textarea {
     border-radius: 4px;
     background-color: papayawhip;
     padding: 3%;
-    width: 60%;
+    width: 65%;
+    margin: 2% 16%;
+    
+   
     
   }
   /*styling end of contct form*/
