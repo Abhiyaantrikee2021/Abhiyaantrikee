@@ -129,4 +129,7 @@ main{
     margin:1% 3%;
     padding:1% 3%;
     border:2px solid black;
+    background-color: rgba(49, 47, 47, 0.13);
+    font-size: large;
+    border-radius: 15px;
 }
