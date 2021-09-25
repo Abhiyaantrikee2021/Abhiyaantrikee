@@ -45,7 +45,7 @@ footer{
 }
 
 .download-button{
-    background-color:papayawhip;
+    background-color: rgba(49, 47, 47, 0.13);
     font-weight: bold;
     color:black;
     margin:1% 42%;
@@ -67,7 +67,8 @@ footer{
 .phychem{
     border:3px solid black;
     font-family: 'Times New Roman', Times, serif;
-    background-color: whitesmoke;
+    
+    background-color:white;
      padding:1% 1%;
     margin:1% 30%;
 
