@@ -22,7 +22,7 @@ a:hover{
     text-decoration: underline;
 }
 .header-link-left{
-    margin-left:60%;
+    margin-left:55%;
     
 }
 
@@ -37,7 +37,7 @@ header{
 }
 .vl {
   border-left: 3px solid white;
-  height: 5%;
+  height: 4%;
   position:absolute;
   display: inline-block;
   
