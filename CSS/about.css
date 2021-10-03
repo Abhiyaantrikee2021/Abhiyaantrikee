@@ -5,7 +5,7 @@ body{
 }
 
 p{
-    font-size: large;
+    font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     margin:1% 1.5%;
 }
@@ -17,7 +17,15 @@ p{
 
 .headings{
     margin:1% 1%;
+    
+
 }
+
+.heading{
+    font-size: xx-large;
+    margin:1% 1%;
+}
+
 body{
     background-color: papayawhip;
 }
